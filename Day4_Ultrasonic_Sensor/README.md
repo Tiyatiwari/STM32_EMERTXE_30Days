@@ -18,8 +18,6 @@ Interface HC-SR04 ultrasonic sensor with STM32F103C6 and display distance on UAR
 3. Calculate: Distance(cm) = (Echo_Time_us * 0.0343) / 2
 4. Send distance via UART1 at 115200 baud every 500ms
 
-## Output Screenshot
-![Ultrasonic Output](Day4_Ultrasonic_Output.png)
 
 ## Tested Range
 25 cm to 159 cm - verified using PICSimLab slider
